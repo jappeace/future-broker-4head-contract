@@ -19,7 +19,7 @@ stdenv.mkDerivation {
           };
         };
       };
-    }) cargo wasm-pack
+    }) cargo wasm-pack llvmPackages_9.lld
     inotify-tools
   ];
 

@@ -6,6 +6,8 @@ name = "future-broker-4head"
 version = "0.1.0"
 authors = ["jappie <superpwnzormegaman@gmail.com>"]
 license-file = "license.txt"
+
+[lib]
 crate-type = ["cdylib"]
 
 [profile.release]

@@ -1,6 +1,6 @@
 build: 
 	date
-	cargo build
+	RUSTFLAGS="-C linker=lld" cargo build --release --target wasm32-unknown-unknown
 
 # TODO make work with watch, maybe builtfarm
 clean:
