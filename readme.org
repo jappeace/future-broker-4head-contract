@@ -2,8 +2,7 @@
 
 A future contract broker for the etheruem blockchain.
 
-This is a contract written in rust, 
-
+This is a contract written in rust.
 
 * TODO 
 + Initial deployment of rust code into an ethereum network.
@@ -11,3 +10,5 @@ This is a contract written in rust,
 
 * Docs
 https://wavelet.perlin.net/docs/smart-contracts
+
+https://docs.ethhub.io/ethereum-basics/development/testing/

@@ -8,7 +8,18 @@ stdenv.mkDerivation {
   # inherit rustc;
   # };
   nativeBuildInputs = [
-    rustc cargo
+    (rustc.override {
+      stdenv = stdenv.override{
+        targetPlatform= {
+          parsed = {
+            cpu = { name = "wasm32"; };
+            vendor = {name = "unknown";};
+            kernel = {name = "unknown";};
+            abi = {name = "unknown";};
+          };
+        };
+      };
+    }) cargo wasm-pack
     inotify-tools
   ];
 

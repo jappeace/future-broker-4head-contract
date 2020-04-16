@@ -6,6 +6,7 @@ name = "future-broker-4head"
 version = "0.1.0"
 authors = ["jappie <superpwnzormegaman@gmail.com>"]
 license-file = "license.txt"
+crate-type = ["cdylib"]
 
 [profile.release]
 lto = true
@@ -13,3 +14,5 @@ lto = true
 [dependencies]
 smart-contract = "0.2.0"
 smart-contract-macros = "0.2.0"
+
+
