@@ -1,0 +1,15 @@
+cargo-features = ["edition"]
+
+[package]
+edition = "2018"
+name = "future-broker-4head"
+version = "0.1.0"
+authors = ["jappie <superpwnzormegaman@gmail.com>"]
+license-file = "license.txt"
+
+[profile.release]
+lto = true
+
+[dependencies]
+smart-contract = "0.2.0"
+smart-contract-macros = "0.2.0"
